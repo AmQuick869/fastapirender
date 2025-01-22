@@ -4,3 +4,4 @@ reportlab
 fastapi
 uvicorn
 python-multipart
+gunicorn
