@@ -1,0 +1,5 @@
+pdfminer.six
+google-generativeai
+reportlab
+fastapi
+uvicorn
