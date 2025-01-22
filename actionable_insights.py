@@ -114,6 +114,10 @@ def create_pdf(output_text, file_name="Patient_Advice.pdf"):
 
     pdf.build(elements)
     return file_name
+@app.get("/")
+async def root():
+    return {"message": "Welcome to the Actionable Insights API!"}
+    
 
 @app.post("/generate-report/")
 async def generate_report(file: UploadFile = File(...)):
